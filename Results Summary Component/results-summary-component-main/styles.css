@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+main {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin:auto;
+     background-color:white;  
+     border-radius: 20px; 
+     box-shadow: 3px 10px 20px 5px hsl(221, 100%, 96%)
+    }
+
+
+/* --- results section --- */
+
+.result {
+        flex: 1;
+        height: auto;
+        font-family: 'Hanken Grotesk', sans-serif;
+        background-image: linear-gradient(to bottom, hsl(252,100%,67%), hsl(241, 81%, 54%));
+        border-radius: 25px;
+        text-align: center;
+        padding: 5%;
+    }
+
+.result h2 {
+    color: hsl(241, 100%, 89%, 0.9);
+    font-size: 20px;
+    padding-bottom: 15px
+
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+    width: 175px;
+    height: 175px;
+    background-image: linear-gradient(to bottom, hsl(256, 72%, 46%, 1), hsl(241, 72%, 46%, 0));
+    border-radius: 50%;
+
+}
+
+.circle h1{
+    color: white;
+    font-size: 60px;
+    line-height: 0%;
+    margin-bottom:10px;
+}
+
+.circle > p{
+ font-size: 14px;
+ color: hsl(241, 100%, 89%, 0.3);
+ margin-top: 10%;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+
+.result p{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+
+}
+/* --- results section end --- */
+
+/* --- summary section  --- */
+
+.summary{
+    flex: 1;
+    font-family:'Hanken Grotesk', sans-serif;
+    padding: 2%;
+    
+}
+.summary > h1{
+    justify-content: center;
+    color: hsl(224, 30%, 27%);
+    font-size: 20px;
+    padding-left: 25px;
+    
+}
+
+.summary > div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.summary p {
+    color: hsl(224, 30%, 27%);
+    margin-left: auto;
+    font-weight: 700;
+}
+
+.outof{
+    color: hsl(224, 30%, 27%, 0.5);  
+}
+
+svg{
+    align-items: flex-start;
+}
+
+/* --- summary breadown boxes --- */
+.breakdown{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.reaction {
+    flex:1;
+    background: hsl(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+}
+
+.reaction h2{
+    color: hsl(0, 100%, 67%,);
+    align-items: flex-start;
+    font-weight: 500;
+    font-size:18px;
+
+}
+
+.memory {
+    display: flex;
+    background: hsl(39, 100%, 56%, 0.1);
+}
+
+.memory h2{
+    color: hsl(39, 100%, 56%);
+    align-items: flex-start;
+    font-weight: 500;
+    font-size:18px;
+
+}
+
+.verbal{
+    display: flex;
+    background: hsl(166, 100%, 37%, 0.1);
+}
+
+.verbal h2{
+    color: hsl(166, 100%, 37%);
+    align-items: flex-start;
+    font-weight: 500;
+    font-size:18px;
+
+}
+
+.visual{
+    display: flex;
+    background: hsl(234, 85%, 45%, 0.1);
+}
+
+.visual h2{
+    color: hsl(234, 85%, 45%);
+    align-items: flex-start;
+    font-weight: 500;
+    font-size:18px;
+
+}
+
+/* --- summary breadown boxes end --- */
+
+button{
+    display: block;
+    margin: auto;
+    padding: 15px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    width:310px;
+    font-family:'Hanken Grotesk', sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 0;
+}
+
+button:active{
+    background-image: linear-gradient(to bottom, hsl(256, 72%, 46%, 1), hsl(241, 72%, 46%, 1));
+
+}
+
+.button{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* --- sumamry section end --- */
+
+/* --- mobile --- */
+
+@media only screen and (max-width: 800px) {
+    body {
+      margin: 0 auto;
+      padding-top:30%;
+    }
+    .result{
+       padding-top: 50px;
+    }
+  }
+
+/* --- mobile end --- */
+
+
+  .attribution { 
+    font-size: 11px; text-align: center;
+    padding-top: 10%;
+}
+    .attribution a { color: hsl(228, 45%, 44%);  }
