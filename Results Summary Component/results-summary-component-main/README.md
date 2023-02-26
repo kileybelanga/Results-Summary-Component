@@ -26,11 +26,11 @@ Users should be able to:
 
 ### Screenshot
 Desktop:
-![](/assets/images/Desktop%20screenshot.png)
+![](assets/images/Desktop%20screenshot.png)
 Desktop Button Active:
-![](/assets/images/desktop%20button%20active.png)
+![](assets/images/desktop%20button%20active.png)
 Mobile
-![](/assets/images/mobile%20screenshot.png)
+![](assets/images/mobile%20screenshot.png)
 
 
 ### Links
