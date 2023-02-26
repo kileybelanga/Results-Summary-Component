@@ -35,8 +35,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/kileybelanga/Results-Summary-Component/tree/main/Results%20Summary%20Component/results-summary-component-main)
+- Live Site URL: (https://htmlpreview.github.io/?https://github.com/kileybelanga/Results-Summary-Component/blob/main/Results%20Summary%20Component/results-summary-component-main/index.html)
 
 ## My process
 I started out by organizing my sementic structure and once I had each element organized into their group I began styling working from the outermost layer inwards. Once styles I reviewed my stylesheet and html to see where I could improve and streamline my code. After styling for desktop I started working on responsiveness and styling for mobile. 
